@@ -28,7 +28,7 @@ signal.signal(signal.SIGINT, handle_interrupt)  # 将SIGINT信号的处理函数
 def bypass_403(url, path):    
     # 打印标题    
     print(art.text2art("run403.py"))    
-    print("By yuancao")    
+    print("By AI")    
     print("python ./run403.py http://test.com home")    
     print("1开头的是在url上修改")   
     print("2开头的是在请求头上修改") 
