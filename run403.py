@@ -39,7 +39,7 @@ def bypass_403(url, path):
 
 # 发起GET请求，原请求，并打印HTTP状态码和下载大小  
     res11 = requests.get(f"{url}/{path}", verify=False, stream=True)    
-    print(f"11  --> {url}/{path}")      
+    print(f"11  原请求--> {url}/{path}")      
     if 'content-length' in res11.headers:  
         print(f"HTTP状态码: {res11.status_code}, 下载大小: {res11.headers['content-length']}")         
     else:  
