@@ -5,7 +5,9 @@ pua ai写的一个绕过访问路径时403的工具
 
 1、用法：
 python  ./run403.py       url        路径
+
 python  ./run403.py http://test.com  home
+
 python  ./run403.py http://test.com/main  home
 
 
